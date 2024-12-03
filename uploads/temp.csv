@@ -1,0 +1,4 @@
+timestamp,temperature,humidity,windSpeed,precipitation,pressure,location
+2024-01-01T08:00:00Z,25.5,60,10,0,1013.5,New York
+2024-01-01T09:00:00Z,26.0,62,12,0,1012.9,Los Angeles
+2024-01-01T10:00:00Z,24.3,55,8,0,1014.1,Chicago
