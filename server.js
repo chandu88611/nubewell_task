@@ -33,7 +33,7 @@ const apiLimiter = rateLimit({
   message: 'Too many requests from this IP, please try again later.',
 });
 
-const allowedOrigins = ["http://localhost:5173","https://2a1a-2401-4900-900a-d9e9-bdff-3f49-16aa-2b1f.ngrok-free.app"]; // Your frontend URL
+const allowedOrigins = ["http://localhost:5173","https://2a1a-2401-4900-900a-d9e9-bdff-3f49-16aa-2b1f.ngrok-free.app","https://tradeon.com.co/"]; // Your frontend URL
 
 app.use(cors({
   origin: allowedOrigins,
